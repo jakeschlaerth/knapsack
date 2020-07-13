@@ -1,4 +1,5 @@
-
+# author: Jacob Schlaerth
+# date: 7/12/2020
 
 while True:  # driver code for capacity user input
     try:
@@ -40,7 +41,7 @@ def knappy(capacity, weight, value, n):
 
     return table[n][capacity]
 
-
+#
 n = len(weights)
 print("The maximum value that can be fit in the knapsack is:", knappy(user_capacity, weights, values, n))
 
